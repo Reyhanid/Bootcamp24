@@ -1,0 +1,58 @@
+.container{
+border: 2px solid;
+margin: auto auto;
+width: 100rem;
+height: 100rem;
+}
+.top{
+    display: flex;
+    width: 100%;
+    height: 25%;
+}
+.topOne{
+width: 25%;
+border: 2px solid;
+}
+.topTwo{
+width: 25%;
+border: 2px solid;
+}
+.topThree{
+width: 50%;
+border: 2px solid;
+}
+.buttom{
+    display: flex;
+    width: 100%;
+    height: 75%;
+}
+.buttomLeft{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.leftOne{
+    height: 50%;
+    border: 2px solid;
+}
+.leftTwo{
+    height: 50%;
+    border: 2px solid;
+}
+.buttomRight{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.rightOne{
+    height: 30%;
+    border: 2px solid;
+}
+.rightTwo{
+    height: 50%;
+    border: 2px solid;
+}
+.rightThree{
+    height: 20%;
+    border: 2px solid;
+}

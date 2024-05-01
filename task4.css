@@ -1,0 +1,242 @@
+@font-face {
+    font-family: "TTNorms";
+    src: url("../task3/ARIAL.TTF") format("TTF");
+}
+html{
+    box-sizing: border-box;
+}
+*, 
+*::after, 
+*::before{
+    box-sizing: inherit;
+    font: inherit;
+    margin: 0;
+}
+.body{
+    font-family: Arial;
+}
+.container{
+    max-width: 80rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.head{
+    display: flex;
+    align-items: center;
+    direction: rtl;
+    margin-right:1.3rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.headerImage{
+    display: flex;
+    align-items: center;
+}
+.listHeader{
+    padding: 0.5rem;
+}
+.headerLi{
+    width: 2.2rem;
+    height: 2.2rem;
+    color: #5f6368;
+    opacity: 1;
+    border-radius: 100%;
+    padding: 4px;
+    border: 2px solid #fff;
+}
+.Image1header{
+    border-radius: 100%;
+    padding: 4px;
+    border: 2px solid #fff;
+}
+.Image1header:hover{
+    background-color: #dfe1e5;
+}
+.headerLi:hover{
+    background-color: #dfe1e5;
+}
+.optionList{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    padding-right: 0;
+    align-items: center;
+}
+.Option{
+    text-decoration: none;
+    margin: 1rem;
+    padding-top: 0.8rem;
+    color: #43484b;
+    font-size: 14px;
+    font-weight: 530;
+}
+.Option:hover{
+    text-decoration-line: underline;
+}
+.Mainmain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16rem;
+    height: calc(100% - 560px);
+    max-height: 290px;
+}
+.ImageMain{
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.search{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.mainInpot{
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    width: 37rem;
+    height: 3rem;
+    border-radius: 2rem;
+    position: relative;
+    z-index: 1;
+    margin-top: 10px;
+    display: block;
+}
+.mainInpot:hover{
+    box-shadow:0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+.searchIcon{
+    width: 1.2rem;
+    height: 1.2rem;
+    color: #43484b;
+    position: absolute;
+    top: 24px;
+    left: 12px;
+    z-index: 3;
+    color: #9aa0a6;
+}
+.searchMic{
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 22px;
+    right: 56px;
+    z-index: 3;
+}
+.searchCam{
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    z-index: 3;
+}
+.Option{
+display: block;
+}
+.mainOption1{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 7px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    font-weight: 200;
+}
+.mainOption1:hover{
+    text-decoration: none;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+.mainOption2:hover{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+.mainOption2{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 7px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    font-weight: 200;
+}
+.holefooter{
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: Arial;
+    padding: 0 20px;
+}
+.footerRightA{
+    text-decoration: none;
+    color: #3c4043;
+}
+.footerRightUL{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+.options{
+    margin: 1rem 0.7rem;
+    color: #3c4043;
+    font-weight: 200;
+}
+.options:hover{
+    text-decoration-line: underline;
+}
+.footerLeftA{
+    text-decoration: none;
+    color: #3c4043;
+}
+.footerLeftUL{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+@media only screen and (max-width: 1200px){
+    .holefooter{
+        justify-content: space-evenly;
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 568px){
+    .mainInpot{
+        width: 27rem;
+    }
+    .holefooter{
+        height: auto;
+    }
+}

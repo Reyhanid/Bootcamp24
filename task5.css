@@ -1,0 +1,317 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+html{
+    box-sizing: border-box;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+*, 
+*::after, 
+*::before{
+    box-sizing: inherit;
+    font: inherit;
+    margin: 0;
+}
+body{
+    background: url(./wp9093350-4k-bing-wallpapers.jpg);
+    background-repeat:no-repeat ;
+    background-size: 100%;
+    background-color: rgba(34, 34, 34, .9);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    
+}
+.head{
+    align-items:center ;
+}
+.logo{
+    position: absolute;
+    width: 154px;
+    height: 24px;
+    transform: translate(0, 12px) scale(1.16);
+    filter: drop-shadow(0 0 24px rgba(0, 0, 0, .45));
+}
+.logo .b_text {
+    fill: #fff;
+}
+.logo .ms_text,.logo .b_text {
+    fill: #fff;
+}
+.logo .squares .top_l {
+    fill: #f26522;
+}
+.logo .squares .top_r {
+    fill: #8dc63f;
+}
+.logo .squares .bom_l {
+    fill: #00aeef;
+}
+.logo .squares .bom_r {
+    fill: #ffc20e;
+}
+.navbar{
+    padding-top: 0.3rem;
+    margin-left: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+}
+.RightPerson{
+    width: 2rem;
+    height: 2rem;
+}
+.RightList{
+    width: 2rem;
+    height: 2rem;
+}
+.rms_img{
+    cursor: pointer;
+}
+.navbarLeftLink{
+    text-decoration: none;
+    color: #ffffffe3;
+    margin: 0.4rem;    
+}
+.navbarrightLink{
+    text-decoration: none;
+    color: #ffffffe3;
+    margin: 0.4rem;
+}
+.right :hover{
+    color: #fff;
+}
+.left :hover{
+    color: #fff;
+}
+.mainMain{
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 560px);
+    max-height: 290px;
+}
+.mainSearch{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.SearchInput{
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    width: 37rem;
+    height: 3.5rem;
+    border-radius: 1.7rem;
+    position: relative;
+    z-index: 1;
+    margin-top: 10px;
+    display: block;
+    z-index: 1;
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, .45);
+}
+.searchicon{
+    width: 1.5rem;
+    position: absolute;
+    top: 25px;
+    right: 17px;
+    z-index: 3;
+}
+.searchimg{
+    width: 1.5rem;
+    position: absolute;
+    top: 25px;
+    right: 58px;
+    z-index: 3;
+}
+.searchmic{
+    width: 1.5rem;
+    position: absolute;
+    top: 25px;
+    right: 95px;
+    z-index: 3;
+    fill: #00809d;
+}
+main {
+    display: block;
+}
+.mainOptions{
+    margin-top: 1.5rem;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    display: flex;
+    color-scheme: auto;
+}
+.Option{
+    width: calc(25% - 16px) !important;
+    height: 56px;
+    border-radius: 6px;
+    position: relative;
+    transition: all .1s;
+    margin: 5px;
+    padding: 8px 19px;
+    align-items: center;
+    display: inline-flex;
+    background-color: rgba(255, 255, 255, .8);
+    border: none;
+    outline: none;
+}
+.google{
+    width: 1.2rem;
+    overflow: hidden;
+    border-radius: 100%;
+}
+.w3{
+    width: 2rem;
+    height: 1.1rem;
+    overflow: hidden;
+}
+.spanOption{
+    margin-left: 1rem;
+}
+.git{
+    width: 2rem;
+    overflow: hidden;
+}
+.youtube{
+    width: 2rem;
+    height: 1.1rem;
+}
+.foot{
+    margin-top: 20rem;
+}
+.footerbuttontop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.buttonleft{
+    text-decoration: none;
+    border-radius: 1rem;
+    
+}
+.down{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 6px;
+    margin: 0 0 .5rem 0;
+    background-color: rgba(34, 34, 34, .9);
+    left: 0;
+    top: auto;
+    transform: none;
+    bottom: 100%;
+    color: #fff;
+    padding: 0.5rem;
+}
+.buttonRight{
+    text-decoration: none;
+    border-radius: 1rem;
+}
+.leftfooterbutton{
+    width: 2rem;
+    height: 2rem;
+    padding: 0.5rem;
+    border-radius: 6px;
+    margin: 0 0 .5rem 0;
+    background-color: rgba(34, 34, 34, .9);
+    bottom: 100%;
+    color: #fff;
+}
+.rightfooterbutton{
+    width: 2rem;
+    height: 2rem;
+    padding: 0.5rem;
+    border-radius: 6px;
+    margin: 0 0 .5rem 0;
+    background-color: rgba(34, 34, 34, .9);
+    bottom: 100%;
+    color: #fff;
+}
+.mappin{
+    width: 2rem;
+    height: 2rem;
+    padding: 0.5rem;
+    border-radius: 6px;
+    margin: 0 0 .5rem 0;
+    background-color: rgba(34, 34, 34, .9);
+    bottom: 100%;
+    fill: #fff;
+}
+#mapfooter{
+    padding: 0.5rem;
+    border-radius: 6px;
+    margin: 0 0 .5rem 0;
+    background-color: rgba(34, 34, 34, .9);
+}
+.spanfooter{
+    color: #fff;
+}
+.footerButtonlinks{
+    text-decoration: none;
+    color: #fff;
+}
+.footerimagelinks{
+    width: 16rem;
+    overflow: hidden;
+    border-bottom-left-radius:1rem ;
+    border-bottom-right-radius:1rem ;
+}
+.pntile{
+    background-color: rgba(34, 34, 34, .9);
+    border-radius: 1rem;
+    width: 16rem;
+    align-items: center;
+}
+.news{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    padding-left: 0;
+}
+.footercopyright{
+    position: absolute;
+    bottom: 0;
+    margin-top: 5rem;
+    height: 2rem;
+    width: 100%;
+    background-color: #dfe1e5;
+    display: flex;
+    justify-content: space-between;
+}
+.copyrightLi{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 3rem;
+}
+.footercopyrightright{
+    margin-right: 3rem;
+}
+.copylink{
+    text-decoration: none;
+    color: #888;
+    margin: 0 1rem;
+}

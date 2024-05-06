@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="./task6.css">
+</head>
+<body>
+    <div class="calculator">
+        <section class="input">
+            <input type="text" id="input" placeholder="please enter the numbers">
+        </section>
+        <section class="elements">
+            <div>
+                <button onclick="display('1')">1</button>
+                <button onclick="display('2')">2</button>
+                <button onclick="display('3')">3</button>
+            </div>
+            <div>
+                <button onclick="display('4')">4</button>
+                <button onclick="display('5')">5</button>
+                <button onclick="display('6')">6</button>
+            </div>
+            <div>
+                <button onclick="display('7')">7</button>
+                <button onclick="display('8')">8</button>
+                <button onclick="display('9')">9</button>
+            </div>
+            <div class="zeroclear">
+                <button onclick="display('0')" class="zero">0</button>
+                <button onclick="clearscreen()" class="delete">delete</button>
+            </div>
+            <div class="operator">
+                <button onclick="display('+')">+</button>
+                <button onclick="display('_')">-</button>
+                <button onclick="display('*')">*</button>
+                <button onclick="calcute()" class="equal">=</button>
+            </div>
+        </section>
+        
+        
+    </div>
+    <div class="result"></div>
+    <script src="./task6.js"></script>
+</body>
+</html>
